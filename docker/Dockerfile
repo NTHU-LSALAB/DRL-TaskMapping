@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
 RUN mkdir /workspace && chown 1000 /workspace
-RUN apt-get update && apt-get install -y git libsm6 libxrender1 aria2 cmake libboost-dev pajeng
+RUN apt-get update && apt-get install -y git libsm6 libxrender1 aria2 cmake libboost-dev pajeng time
 RUN cd /workspace && \
     aria2c -x 4 'https://github.com/simgrid/simgrid/archive/v3.23.tar.gz' && \
     tar -xf simgrid-3.23.tar.gz && \
