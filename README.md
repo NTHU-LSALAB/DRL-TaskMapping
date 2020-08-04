@@ -22,13 +22,12 @@ Ensure you meet the following system requirements:
   * PyPI packages
   * [numpy](https://pypi.org/project/numpy/)
   * [tensorflow-gpu](https://www.tensorflow.org/) == 1.14.0
+  * [baseline](https://github.com/openai/baselines)
  
 * Essential libraries and utilities
-  * [Git](https://git-scm.com/downloads), [Aria2](https://github.com/aria2/aria2), [libboost-dev](https://www.boost.org/) [pajeng](https://github.com/schnorr/pajeng) [Simgrid](https://simgrid.org/)
+  * [git](https://git-scm.com/downloads), [aria2](https://github.com/aria2/aria2), [libboost-dev](https://www.boost.org/), [pajeng](https://github.com/schnorr/pajeng), [simgrid](https://simgrid.org/), [libxrender1](https://www.archlinux.org/packages/extra/x86_64/libxrender/), [libsm6](https://www.archlinux.org/packages/extra/x86_64/libsm/)
 
 ## Installation
-
-* [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 10.2
 
 ### Download the DRL-TaskMapping Source Code
 
