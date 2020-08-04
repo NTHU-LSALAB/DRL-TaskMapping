@@ -4,13 +4,31 @@ A deep reinforcement learning method for solving task mapping problems.
 
 ## Requirements
 
+**Containerized Environment (*Recommended*)**
+
 Ensure you meet the following system requirements:
 
 * [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 10.2
 * [Docker](https://docs.docker.com/install/) >= 19.03
 * [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker) >= 2.0 or `nvidia-container-toolkit`
 
+**Bare Metal**
+
+* [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 10.2
+* [GNU Make](https://ftp.gnu.org/gnu/make/) >= v4.1
+* [CMake](https://github.com/Kitware/CMake/releases) >= v3.8
+* [Python](<https://www.python.org/downloads/>) >= v3.6.5
+* [PIP](https://pypi.org/project/pip/#history) >= v19.0
+  * PyPI packages
+  * [numpy](https://pypi.org/project/numpy/)
+  * [tensorflow-gpu](https://www.tensorflow.org/) == 1.14.0
+ 
+* Essential libraries and utilities
+  * [Git](https://git-scm.com/downloads), [Aria2](https://github.com/aria2/aria2), [libboost-dev](https://www.boost.org/) [pajeng](https://github.com/schnorr/pajeng) [Simgrid](https://simgrid.org/)
+
 ## Installation
+
+* [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 10.2
 
 ### Download the DRL-TaskMapping Source Code
 
