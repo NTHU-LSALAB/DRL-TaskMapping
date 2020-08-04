@@ -86,7 +86,7 @@ DRL-TaskMapping
 ├── baselines              # Modified baseline library with our env
 │   ├── scripts            # Demo scripts
 │   ├── baselines          # Baselines library
-│   └── ... others
+│   └── ...
 ├── docker
 │   └── Dockerfile         # Dockerfile
 └── scripts                # Build & launch the Docker image
