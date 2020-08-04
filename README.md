@@ -75,3 +75,19 @@ Run the `play.sh` to do the inference, the output will be logged at `logs/<num_e
 bash scripts/play.sh
 ```
 
+## Code Structure
+
+```Bash
+DRL-TaskMapping
+├── data
+│   ├── src                # MPI application 
+│   ├── testcases          # Communication pattern
+│   └── xmldescs           # Architecture description
+├── baselines              # Modified baseline library with our env
+│   ├── scripts            # Demo scripts
+│   ├── baselines          # Baselines library
+│   └── ... others
+├── docker
+│   └── Dockerfile         # Dockerfile
+└── scripts                # Build & launch the Docker image
+```
